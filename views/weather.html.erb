@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <link rel="stylesheet" href="stylesheet.css" media="screen" title="no title">
+    <link rel="stylesheet" type="text/css"
+           href="https://fonts.googleapis.com/css?family=Raleway">
+  </head>
+  <body class="background-choice-sunny">
+
+
+<!--MAIN CONTAINER BEGIN HERE  -->
+  <div class="main-body-container">
+    <div id="date-and-time">
+      <%= @date_from_api %>
+    </div>
+    <div id="temperature-report">
+      <%= @temp_from_api %>&deg;F
+    </div>
+    <div id="weather-description">
+      <%= @conditions_from_api %>
+    </div>
+  </div>
+
+
+<!--MAIN CONTAINER END  HERE  -->
+
+
+  </body>
+</html>
