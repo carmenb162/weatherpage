@@ -3,4 +3,4 @@ ruby "2.3.1"
 
 gem 'sinatra'
 gem 'httparty'
-gem 'rubygems'
+# gem 'rubygems'
