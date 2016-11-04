@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.3.1"
 
-gem 'ruby'
+gem 'ruby', '2.3.1'
 gem 'sinatra'
 gem 'httparty'
-gem 'rubygems'
